@@ -11,7 +11,7 @@ interface ProjectProps {
 
 const ProjectCard = ({ title, description, deployed, github, image, alt }: ProjectProps) => {
     return (
-      <div className="bg-black p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all ease-in-out">
+      <div className=" bg-black p-6 rounded-lg shadow-lg hover:shadow-2xl transition-all ease-in-out">
         <h3 className="text-2xl font-semibold">{title}</h3>
         <p className="mt-4 text-gray-300">{description}</p>
           <img

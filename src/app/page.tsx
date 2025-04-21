@@ -5,11 +5,11 @@ import Footer from '../components/Footer';
 
 export default function Home() {
   return (
-    <div>
+    <main className="h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
       <Hero />
       <About />
       <Projects />
       <Footer />
-    </div>
+    </main>
   );
 }
